@@ -1,0 +1,2 @@
+include ':attach_file_module'
+rootProject.name = "AttachFileModule"
