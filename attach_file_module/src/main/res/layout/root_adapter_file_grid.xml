@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv_adapter_file_root"
+    app:cardBackgroundColor="?attr/white"
+    app:rippleColor="?attr/green"
+    android:layoutDirection="ltr"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_adapter_file_root_limit"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:cornerRadius="20dp"
+            android:visibility="visible"
+            android:background="?attr/white"
+            app:tint="?attr/gray"
+            android:layout_margin="@dimen/_20sdp"
+            app:srcCompat="@drawable/ic_gallery"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_adapter_file_root"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <com.rishabhharit.roundedimageview.RoundedImageView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:background="?attr/grayPrimaryLight"-->
+<!--        android:clickable="false"-->
+<!--        android:focusable="false"-->
+<!--        android:scaleType="fitXY"-->
+<!--        app:contentPadding="15dp"-->
+<!--        app:cornerRadius="20dp"-->
+<!--        app:layout_constraintDimensionRatio="H,1:1"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:tint="?attr/grayPrimaryLight" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/v_adapter_file_size_limit_root"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:clickable="false"-->
+<!--        android:focusable="false"-->
+<!--        android:alpha="0"-->
+<!--        android:background="?attr/grayPrimaryLight"-->
+<!--        app:layout_constraintDimensionRatio="H,1:1"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <com.google.android.material.card.MaterialCardView-->
+<!--        android:id="@+id/cv_adapter_file_root"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:backgroundTint="?attr/orangePrimaryDark"-->
+<!--        app:rippleColor="?attr/whitePrimary"-->
+<!--        android:text="asfdghgg"-->
+<!--        app:cardBackgroundColor="?attr/transparent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+</com.google.android.material.card.MaterialCardView>

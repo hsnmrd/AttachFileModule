@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="white" format="color" />
+    <attr name="whiteTransparent" format="color" />
+    <attr name="black" format="color" />
+    <attr name="green" format="color" />
+    <attr name="blue" format="color" />
+    <attr name="gray" format="color" />
+    <attr name="orange" format="color" />
+    <attr name="purple" format="color" />
+    <attr name="red" format="color" />
+    <attr name="transparent" format="color" />
+
+    <attr name="bottomSheetTransparent" format="color" />
+
+</resources>

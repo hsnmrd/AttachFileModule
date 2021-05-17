@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_width="@dimen/_60sdp"
+    android:layout_height="@dimen/_60sdp">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/iv_root_adapter_photo_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
